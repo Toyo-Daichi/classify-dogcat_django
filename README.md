@@ -4,7 +4,8 @@
 犬 or 猫どちらに該当するかを判定してくれるアプリ
 
 ![](./screenshot/1.png)
-　　　　　　　　　　　　　　↓
+　　　　　　　　　　　　　
+                     
 ![](./screenshot/2.png)
 
 ___
