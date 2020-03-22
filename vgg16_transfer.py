@@ -13,7 +13,7 @@ num_classes = len(classes)
 image_size = 224
 
 # データの読み込み
-X_train, X_test, y_train, y_test = np.load('./imagefiles_224.npy',allow_pickle=True)
+X_train, X_test, y_train, y_test = np.load('./imagefiles.npy',allow_pickle=True)
 y_train = np_utils.to_categorical(y_train, num_classes)
 y_test = np_utils.to_categorical(y_test, num_classes)
 X_train = X_train.astype('float') / 255.0
