@@ -17,7 +17,7 @@ ___
 
 ### **1. 仮想環境にてTensorFlowの導入**
 ```bash
-$ create -n djangoai tensorflow
+$ conda create -n djangoai tensorflow
 $ source activate djangoai
 ```
 
